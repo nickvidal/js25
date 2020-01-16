@@ -20,7 +20,7 @@ $(function(){
   	sr.reveal('.js--fadeInLeft', {
 	    origin: 'left',
 	    distance: '300px',
-		  easing: 'ease-in-out',
+	    easing: 'ease-in-out',
 	    duration: 800,
 	  });
 
@@ -36,7 +36,7 @@ $(function(){
   sr.reveal('.js--fadeInLeft', {
 	    origin: 'left',
 	    distance: '300px',
-		  easing: 'ease-in-out',
+	    easing: 'ease-in-out',
 	    duration: 800,
 	  });
 
