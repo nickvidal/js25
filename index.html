@@ -1,107 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JavaScript's 25th Anniversary</title>
-<link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<link rel='stylesheet' href='js25th.css'>
-</head>
-<body>
-<header>
-  <div class="container text-center">
-    <p><img src="js.png"></p>
-    <p>25th Anniversary</p>
-  </div>
-</header>
-<div>
-<ul class="nav nav-pills nav-justified">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">History</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Resources</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Sponsors</a>
-  </li>
-</ul>
-</div>
-<section class="timeline">
-  <div class="container">
-    
-    
-    <div class="timeline-item">
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="timeline-img-header">
-          <h2>JSConf Hawai'i</h2>
-        </div>
-        <div class="date">February 5-7</div>
-        <p>JSConf Hawaiʻi is the newest in the family of JSConf events. For our second year, we're planning to bring about 400 people together for a three-day single track conference. Our goal is that by the time you leave, you'll have seen some new ideas, learned some more JavaScript, and made new friends to keep in touch with.</p>
-        <a class="bnt-more" target="_blank" href="https://www.jsconfhi.com/">More</a>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" ;="" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript's 25th Anniversary</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js25.css">
+  </head>
+  <body>
+    <header>
+      <div class="container text-center">
+        <p><img src="js.png"></p>
+        <p>25th Anniversary</p>
       </div>
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-          <h2>DeveloperWeek San Francisco</h2>
-        </div>
-        <div class="date">February 12-16</div>
-        <p>DeveloperWeek 2020 is San Francisco’s largest developer conference &
-event series with dozens of week-long events, including a JavaScript
-Conference. DeveloperWeek will bring together 8,000+ attendees from
-70+ countries on Feb 12-16, 2020 at the Oakland Convention Center.</p>
-        <a class="bnt-more" target="_blank" href="https://www.developerweek.com/">More</a>
+    </header>
+    <nav>
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Press</a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="container text-center">
+        <h1>History of JavaScript</h1>
+        <p><a>Suggest new milestone</a> | <a>Subscribe to updates</a></p>
       </div>
-
-    </div>
-
-    
-    <div class="timeline-item">
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="timeline-img-header">
-          <h2>React Summit Amsterdam</h2>
+      <div class="timeline container" id="timeline">
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('berners-lee.jpg');">
+              <h2>World Wide Web</h2>
+            </div>
+            <div class="date">March 1989</div>
+            <p>While working at CERN, Tim Berners-Lee laid out his vision for what would become the web in a document called "Information Management: A Proposal."</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Geneva, Switzerland</span></div>
+            <a class="bnt-more" target="_blank" href="https://webfoundation.org/about/vision/history-of-the-web/">More</a>
+          </div>
         </div>
-        <div class="date">April 15-17</div>
-        <p>A full-day, two-track conference on all things React, gathering Front-end and Full-stack engineers across the globe in the tech heart of Europe. We're coming back with a new gig on April 17, 2020. Mark your calendars for the biggest React community event.</p>
-        <a class="bnt-more" target="_blank" href="https://reactsummit.com/">More</a>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-          <h2>OpenJS Conference Austin</h2>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('www.jpg');">
+              <h2>First Website</h2>
+            </div>
+            <div class="date">August 6, 1991</div>
+            <p>The first website went live on August 6, 1991. It was dedicated to the World Wide Web project itself and was hosted on Tim Berners-Lee's NeXT computer.</p>
+            <a class="bnt-more" target="_blank" href="http://info.cern.ch/hypertext/WWW/TheProject.html">More</a>
+          </div>
         </div>
-        <div class="date">June 23-24</div>
-        <p>At OpenJS Conference, attendees collaborate face-to-face, network, and learn how to better their skills with JS in serverless, IoT, backend, and frontend.</p>
-        <a class="bnt-more" target="_blank" href="https://events19.linuxfoundation.org/events/nodejs-interactive-2019/">More</a>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('mosaic.png');">
+              <h2>Mosaic</h2>
+            </div>
+            <div class="date">June 1993</div>
+            <p>NCSA Mosaic was the web browser that popularized the World Wide Web. Marc Andreessen and Eric Bina developed Mosaic while at NCSA at the University of Illinois at Urbana–Champaign. It was first published in June 1993.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Urbana–Champaign, Illinois</span></div>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/Mosaic_(web_browser)">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('netscape.png');">
+              <h2>Netscape</h2>
+            </div>
+            <div class="date">September 9, 1994</div>
+            <p>Marc Andreessen and Jim Clark founded what would become Netscape  Communications Corporation and launched their first browser on September 9, 1994. Originally it was called Mosaic Netscape, but it was renamed as Netscape Navigator to avoid trademark problems with NCSA. The internal codename for the browser was Mozilla, which stood for "Mosaic killer" and indeed it rapidly became the most popular browser.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Mountain View, California</span></div>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/Netscape_Navigator">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('eich.jpg');">
+              <h2>JavaScript</h2>
+            </div>
+            <div class="date">May 1995</div>
+            <p>Marc Andreessen imagined a more dynamic Web and believed that a language easy to use by Web designers was needed. He recruited Brendan Eich, who in 10 days wrote a prototype for the Netscape browser in May 1995. The language was first called Moca, later LiveScript, and finally renamed JavaScript (to serve as a companion language to Java). </p>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('gates.png');">
+              <h2>JScript</h2>
+            </div>
+            <div class="date">August 1996</div>
+            <p>Microsoft reverse-engineered Netscape's JavaScript to create JScript and made it part of Internet Explorer 3. The introduction of proprietary, non-standards-compliant extensions made it difficult for developers to make a single website that worked well in all browsers. Eventually Internet Explorer became the dominant software in the browser wars.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Redmond, Washington</span></div>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/Browser_wars">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInLeft">
+            <h2>ECMAscript 1</h2>
+            <div class="date">June 1997</div>
+            <p>Netscape submitted JavaScript to ECMA International to create a standard specification, which other browser vendors could then implement. This led to the official release of the language specification ECMAScript in June 1997.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Geneva, Switzerland</span></div>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/ECMAScript">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('mozilla.png');">
+              <h2>Mozilla</h2>
+            </div>
+            <div class="date">January 23, 1998</div>
+            <p>On January 23, 1998, with a steep drop in the browser market share, Netscape publicly released the source code of Netscape Communicator 5.0 in the hopes that it would become a popular open source project. That's how the Mozilla project was born.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>San Francisco, California</span></div>
+            <a class="bnt-more" target="_blank" href="https://www.mozilla.org/en-US/about/history/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInLeft">
+            <h2>XMLHttpRequest</h2>
+            <div class="date">March 1999</div>
+            <p>Microsoft shipped a primordial form of XMLHttpRequest with Internet Explorer 5.0 in March 1999. XMLHttpRequest is an API to transfer data between a web browser and a web server which would prove useful in the future.</p>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/XMLHttpRequest">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInRight">
+            <h2>ECMAscript 3</h2>
+            <div class="date">December 1999</div>
+            <p>This edition added regular expressions, better string handling, new control statements, try/catch exception handling, tighter definition of errors, formatting for numeric output and other enhancements. This was the edition that prevailed for a decade due to stagnation of ECMAscript 4.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Geneva, Switzerland</span></div>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/ECMAScript">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('crockford.jpg');">
+              <h2>JSON</h2>
+            </div>
+            <div class="date">April 2001</div>
+            <p>Douglas Crockford specified JSON (JavaScript Object Notation), a lightweight data-interchange format based on a subset of JavaScript. JSON data is easier to load and work with in the frontend, and by the end of the decade would supersede XML as a data-interchange format on the Web.</p>
+            <a class="bnt-more" target="_blank" href="https://www.json.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('firefox.png');">
+              <h2>Firefox</h2>
+            </div>
+            <div class="date">November 9, 2004</div>
+            <p>Firefox began as an experimental branch of the Mozilla project by Dave Hyatt, Joe Hewitt, and Blake Ross in 2002. To combat what they saw as the Mozilla Suite's software bloat, they created a stand-alone browser, first named Phoenix, later Firebird, and finally Firefox. Firefox version 1.0 was released on November 9, 2004. Firefox's speed, usability, and marketing helped it gain market share agains't Internet Explorer. Within five years of launching, Firefox accounted for nearly a third of all web browsing.</p>
+            <a class="bnt-more" target="_blank" href="https://blog.mozilla.org/press/2004/11/mozilla-foundation-releases-the-highly-anticipated-mozilla-firefox-1-0-web-browser/ ">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInLeft">
+            <h2>AJAX</h2>
+            <div class="date">Februry 18, 2005</div>
+            <p>Jesse James Garrett coined the term AJAX (Asynchronous JavaScript + XML) to describe the asynchronous technologies behind emerging web applications like GMail and Google Maps, which allowed web pages to change content dynamically without the need to reload.</p>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/Ajax_(programming)">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('jquery.gif');">
+              <h2>jQuery</h2>
+            </div>
+            <div class="date">August 2006</div>
+            <p>jQuery is a JavaScript library that was designed by John Resig to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and AJAX. jQuery led the first wave of JavaScript frameworks which included Mootools and Prototype. It's still very popular till this day.</p>
+            <a class="bnt-more" target="_blank" href="https://jquery.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('chromium.png');">
+              <h2>Google Chrome</h2>
+            </div>
+            <div class="date">December 2008</div>
+            <p>Google released the Chrome browser on December 11, 2008, using the same WebKit rendering engine as Safari and a faster JavaScript engine called V8. Shortly after, an open-sourced version for the Windows, OS X, and Linux platforms was released under the name Chromium. With a rapid release cycle and a focus on speed, Google Chrome eventually overtook all other browsers.</p>
+            <div class="location"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span>Mountain View, California</span></div>
+            <a class="bnt-more" target="_blank" href="https://www.google.com/chrome/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('nodejs.png ');">
+              <h2>Node.js</h2>
+            </div>
+            <div class="date">March 2009</div>
+            <p>Node.js was initially developed by Ryan Dahl in March 2009 based on Google's open source V8 JavaScript engine. It paved way to the use of JavaScript on Web servers. Node.js functions are non-blocking, allowing the server to handle a high load of concurrent connections. It represents a 'JavaScript everywhere' paradigm, unifying web-application development around a single programming language.</p>
+            <a class="bnt-more" target="_blank" href="https://nodejs.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('npm.png');">
+              <h2>npm</h2>
+            </div>
+            <div class="date">2009</div>
+            <p>npm (originally short for Node Package Manager) is a package manager for the JavaScript programming language developed by Isaac Z. Schlueter. The npm Registry is a public collection of packages of open-source code for Node.js, front-end web apps, mobile apps, and other applications.</p>
+            <a class="bnt-more" target="_blank" href="https://www.npmjs.com/about">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content js--fadeInRight">
+            <h2>ES5</h2>
+            <div class="date">December 3, 2009</div>
+            <p>ECMAScript 5, the incremental upgrade to ECMAScript 3, was released in December 2009, more than a decade after ECMAScript 3. The ambitious ECMAScript 4 was officially abandoned and under the codenamed Harmony some features became ECMAScript 6. Other features of the original ECMAScript 4 plan would be dropped to be adopted in subsequent versions. A renewed resolve was formed that any new ideas would be developed with the consensus of the entire TC39 in order to prevent the potential for future schisms.</p>
+            <a class="bnt-more" target="_blank" href="https://en.wikipedia.org/wiki/ECMAScript">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('angularjs.png');">
+              <h2>AngularJS</h2>
+            </div>
+            <div class="date">October 2010</div>
+            <p>AngularJS is a JavaScript framework mainly maintained by Google and a community of individuals and corporations. It was part of the second wave of JavaScript frameworks along with Backbone, Ember, and Knockout.</p>
+            <a class="bnt-more" target="_blank" href="https://angularjs.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('react.png');">
+              <h2>React</h2>
+            </div>
+            <div class="date">May 29, 2013</div>
+            <p>React is a JavaScript library maily maintained by Facebook and a community of individual developers and companies. It leads the third wave of JavaScript frameworks along with Angular and Vue.js.</p>
+            <a class="bnt-more" target="_blank" href="https://reactjs.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('WebAssembly.png');">
+              <h2>WebAssembly</h2>
+            </div>
+            <div class="date">March 2017</div>
+            <p>WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications. The precursor technologies were asm.js from Mozilla and Google Native Client.</p>
+            <a class="bnt-more" target="_blank" href="https://webassembly.org/">More</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('openjs.png');">
+              <h2>OpenJS Foundation</h2>
+            </div>
+            <div class="date">March 12, 2019</div>
+            <p>The OpenJS is a Linux Foundation project that was formed from a merger of the JS Foundation and the Node.js Foundation in March 2019. The mission of the OpenJS Foundation is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.</p>
+            <a class="bnt-more" target="_blank" href="https://openjsf.org/">More</a>
+          </div>
+        </div>
       </div>
-
-    </div>
-
-
-
-  </div>
-</section>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
-<script src="js25th.js"></script>
-</body>
+    </section>
+    <nav>
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Press</a>
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="container text-center">
+        <p class="tagline">~ Celebrating the 25th Anniversary at JavaScript ~</p>
+        <p><a href="about">About js25.org</a> | <a href="#">Subscribe to updates</a></p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script src="js25.js"></script>
+  </body>
 </html>
