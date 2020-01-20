@@ -1,7 +1,3 @@
-section {
-  padding: 100px 0;
-}
-
 html, body {
   overflow-x: hidden;
 }
@@ -15,7 +11,6 @@ body {
 
 h1 {
   font-size: 200%;
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -25,9 +20,11 @@ header {
   color: #FFFFFF;
   padding: 25px 0;
 }
+
 header img {
   border: solid;
 }
+
 header p {
   font-family: 'Allura';
   color: black;
@@ -37,14 +34,29 @@ header p {
   margin-top: 0px;
 }
 
+footer {
+  background: #f7df1e;
+  padding: 25px 0;
+}
+
+footer .tagline {
+ font-weight: 700;
+}
+
+section {
+  padding: 25px 0;
+}
+
 .timeline {
   position: relative;
+  margin-top: 25px;
 }
+
 .timeline::before {
   content: '';
   background: #f7df1e;
   width: 5px;
-  height: 95%;
+  height: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -54,14 +66,17 @@ header p {
   width: 100%;
   margin-bottom: 70px;
 }
+
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
   padding: 40px 30px 10px 30px;
 }
+
 .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
   left: 0;
 }
+
 .timeline-item:nth-child(even) .timeline-content::after {
   content: '';
   position: absolute;
@@ -73,6 +88,7 @@ header p {
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
+
 .timeline-item::after {
   content: '';
   display: block;
@@ -87,6 +103,7 @@ header p {
   background: #f5f5f5;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
+
 .timeline-content::after {
   content: '';
   position: absolute;
@@ -110,7 +127,7 @@ header p {
   margin-left: -15px;
 }
 
-a {
+nav a, .timeline a {
   background: #f7df1e;
   color: black;
   padding: 8px 20px;
@@ -122,7 +139,9 @@ a {
   border-radius: 2px;
   box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
 }
-a:hover, a:active, a:focus {
+
+nav a:hover, nav a:active, nav a:focus,
+.timeline a:hover, .timeline a:active, .timeline a:focus {
   background: #eee;
   color: black;
   font-weight: 750;
@@ -132,23 +151,27 @@ a:hover, a:active, a:focus {
 .timeline-card {
   padding: 0 !important;
 }
+
 .timeline-card p {
   padding: 0 20px;
 }
+
 .timeline-card a {
   margin-left: 20px;
 }
 
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("img.jpg") center center no-repeat;
+  background-position: left top;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .timeline-img-header {
-  height: 200px;
+  height: 250px;
   position: relative;
   margin-bottom: 20px;
 }
+
 .timeline-img-header h2 {
   color: #FFFFFF;
   position: absolute;
@@ -169,11 +192,24 @@ blockquote {
   color: black;
   padding: 10px;
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 0;
 }
 
+.location {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.location span {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
+  nav {
+    margin-top: 4px;
+  }
   .timeline::before {
     left: 50px;
   }
