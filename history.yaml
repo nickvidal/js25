@@ -143,7 +143,7 @@ title: WebAssembly
 date: March 2017
 location: 
 description: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications. The precursor technologies were asm.js from Mozilla and Google Native Client.
-image: WebAssembly.png
+image: webassembly.png
 link: https://webassembly.org/
 ---
 title: OpenJS Foundation
