@@ -128,14 +128,14 @@ link: https://en.wikipedia.org/wiki/ECMAScript
 title: AngularJS
 date: October 2010
 location: 
-description: AngularJS is a JavaScript framework mainly maintained by Google and a community of individuals and corporations. It was part of the second wave of JavaScript frameworks along with Backbone, Ember, and Knockout.
+description: AngularJS was released in October 2010 by Misko Hevery and it quickly became the most popular JavaScript MVC framework. It offered two-way data binding, dependency injection, routing package and much more. It was part of the second wave of JavaScript frameworks along with Backbone, Ember, and Knockout.
 image: angularjs.png
 link: https://angularjs.org/
 ---
 title: React
 date: May 29, 2013
 location: 
-description: React is a JavaScript library maily maintained by Facebook and a community of individual developers and companies. It leads the third wave of JavaScript frameworks along with Angular and Vue.js.
+description: React is a JavaScript library for building composable user interfaces developed by Jordan Walke and open-sourced in 2013. It currently leads the third wave of JavaScript frameworks along with Angular and Vue.js.
 image: react.png
 link: https://reactjs.org/
 ---
@@ -149,6 +149,6 @@ link: https://webassembly.org/
 title: OpenJS Foundation
 date: March 12, 2019
 location: 
-description: The OpenJS is a Linux Foundation project that was formed from a merger of the JS Foundation and the Node.js Foundation in March 2019. The mission of the OpenJS Foundation is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
+description: The OpenJS Foundation was formed from a merger of the JS Foundation and the Node.js Foundation in March 2019. The mission of the OpenJS Foundation is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
 image: openjs.png
 link: https://openjsf.org/
