@@ -36,16 +36,7 @@ header h2, footer h2 {
   margin-bottom: 15px;
 }
 
-header p {
-  font-family: 'Allura';
-  font-weight: 750;
-  color: black;
-  font-size: 40px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-footer p {
+header p, footer p {
   font-family: 'Roboto';
   color: black;
   font-size: 20px;
