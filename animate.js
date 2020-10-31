@@ -1,4 +1,3 @@
-
 const milestones = document.querySelectorAll('.timeline-item');
 
 observer = new IntersectionObserver((entries) => {
