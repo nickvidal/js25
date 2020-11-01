@@ -6,11 +6,11 @@ body {
   font-family: 'Roboto';
   font-size: 17px;
   font-weight: 400;
-  background: #eee;
+  background: #ccc;
 }
 
 header {
-  background-color: #eee;
+  background-color: #ccc;
   padding: 50px 0 25px 0;
 }
 
@@ -44,7 +44,7 @@ header p, footer p {
 }
 
 footer {
-  background-color: white;
+  background-color: #ccc;
   padding: 25px;
 }
 
